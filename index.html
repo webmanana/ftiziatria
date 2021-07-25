@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>Фтизиатрия</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/vendor/foundation/app.css">
-    <script src="/vendor/foundation/app.js"></script>
+    <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -14,33 +15,133 @@
         <div class="header_top">
           <div class="container">
             <div class="header_top__wrap flex-row">
-              <div class="header_top__soc-icon">
+              <div class="header_top__soc-icon align-center">
                 <ul class="flex-row">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li><a href="#"><img src="img/facebook.svg" alt=""></a></li>
+                  <li><a href="#"><img src="img/instagram.svg" alt=""></a></li>
+                  <li><a href="#"><img src="img/twitter.svg" alt=""></a></li>
                 </ul>
               </div>
-              <div class="header_top__menu">
+              <div class="header_top__menu align-center">
                 <ul class="flex-row">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li><a href="#">Новости</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Вопрос-ответ</a></li>
+                  <li><a href="#" class="yellow">COVID 19</a></li>
+                </ul>
+              </div>
+              <div class="header_top__info align-center">
+                <ul class="flex-row">
+                  <li>
+                    <img src="img/" alt="">
+                    <span>677015, Петра Алексеева 93</span>
+                  </li>
+                  <li>
+                    <img src="img/" alt="">
+                    <span>09:00 - 17:00</span>
+                  </li>
+                  <li>
+                    <img src="img/" alt="">
+                    <span>+ 7 (0000) 00 - 00 - 00</span>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
+        <div class="header_bottom align-center">
+          <div class="container">
+            <div class="header_bottom__wrap flex-row">
+              <div class="header_bottom__left flex-row">
+                <div class="header_bottom__banner">
+                  <a href="#">
+                    <img src="img/banner-top.png" alt="">
+                  </a>
+                </div>
+                <div class="header_bottom__search align-center">
+                  <form class="header_bottom__search-form" action="index.html" method="post">
+                    <input type="text" name="" value="" placeholder="Поиск">
+                    <label for="header_bottom__search-submit" class="header_bottom__search-label">
+                      <input id="header_bottom__search-submit" type="submit" name="" value="">
+                    </label>
+                  </form>
+                </div>
+              </div>
+              <div class="header_bottom__right flex-row align-center">
+                <div class="header_bottom__right-eye">
+                  <a href="#" class="align-center">
+                    <img src="img/eye.svg" alt="">
+                    <span>Версия для слабовидящих</span>
+                  </a>
+                </div>
+                <div class="header_bottom__right-profile">
+                  <a href="#" class="button">Личный кабинет</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line">
 
+        </div>
       </header>
 
       <main>
+        <div class="main_wrap">
+          <div class="container">
+            <div class="flex-row">
+              <div class="main_menu">
+                <div class="main_menu__content">
+                  <ul>
+                    <li><a href="#">Об учреждении</a></li>
+                    <li><a href="#">Ассоциация фтизиатров Республики Саха (Якутия)</a></li>
+                    <li><a href="#">Научная деятельность</a></li>
+                    <li><a href="#">Медицинская деятельность</a></li>
+                    <li><a href="#">Первичная профсоюзная организация</a></li>
+                    <li><a href="#">Совет медсестёр</a></li>
+                    <li><a href="#">Пациентам</a></li>
+                    <li><a href="#">Медицинский туризм</a></li>
+                    <li><a href="#">Независимая оценка качества оказания услуг</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="main_banner flex-row">
+                <div class="main_banner__slider">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/test.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
 
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+                <div class="main_banner__mini">
+                  <div class="banner__mini-content">
+                    <a href="#">
+                      <img src="img/banner-mini.jpg" alt="">
+                    </a>
+                  </div>
+                  <div class="banner__mini-content">
+                    <a href="#">
+                      <img src="img/banner-mini.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
       <footer>
 
       </footer>
     </div>
   </body>
+  <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/vendor/foundation/app.js"></script>
+  <script src="/js/script.js"></script>
 </html>
