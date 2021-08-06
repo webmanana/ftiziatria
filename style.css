@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  src: url("/fonts/Gilroy-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Bold.ttf");
+  src: url("/fonts/Gilroy-Bold.ttf");
   font-weight: bold;
   font-style: normal;
   font-display: fallback;
