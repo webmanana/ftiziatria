@@ -88,6 +88,9 @@ body {
 .header_top__soc-icon ul li {
   margin-right: 20px;
 }
+.example_url ul li {
+  margin-right: 10px;
+}
 .header_top img,
 .footer_bottom img {
   width: 20px;
