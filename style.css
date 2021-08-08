@@ -1783,6 +1783,101 @@ body {
 .links-block {
   margin-bottom: 20px;
 }
+.justify-space {
+  justify-content: space-between;
+}
+.account_change {
+  position: relative;
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #3E84D9;
+}
+.account_change:hover {
+  text-decoration: none;
+}
+.account_change::after {
+  content: '';
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  background: url("/img/change.svg");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.account-title h3 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #0D2746;
+}
+.account-check-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.account-name__wrap {
+  background: #3E84D9;
+  border: 1px solid #DFE8F1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 14px #DFE8F1;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 40px;
+}
+.account-name__desc-name h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFF00;
+}
+.account-name__desc {
+  padding-left: 40px;
+  flex: 1;
+}
+.account-check {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFF00;
+  position: relative;
+  padding-left: 30px;
+}
+.account-check::after {
+  content: '';
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  position: absolute;
+  left: 5px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: url("/img/check.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.account-name__desc-title {
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #F3F7FC;
+}
+.account-name__desc-title .bold {
+  width: 180px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin-bottom: 10px;
+}
+.bold {
+  font-weight: bold;
+}
 .main_menu__content ul > li > ul > li::after,
 .header_top__info-mobile,
 .services-mobile {
