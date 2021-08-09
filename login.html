@@ -2,7 +2,7 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Фтизиатрия - Полезные ссылки</title>
+    <title>Фтизиатрия - Авторизация</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -264,173 +264,25 @@
                 <a href="#">Главная</a> <img src="img/bread-arrow.svg" alt=""> <a href="#">Об учреждении</a> <img class="bread-arrow__active" src="img/bread-arrow.svg" alt=""> <span>Личный кабинет</span>
               </div>
               <div class="page-content flex-column">
-                <h1>Личный кабинет</h1>
-                <div class="news-page flex-column account-wrap">
-                  <div class="flex-row justify-space account-title">
-                    <h3>Персональные данные</h3>
-                    <a href="#" class="account_change">Изменить</a>
-                  </div>
-                  <div class="account-name__wrap flex-row">
-                    <div class="account-name__img">
-                      <img src="/img/user.png" alt="">
+                <h1>Авторизация</h1>
+                <div class="news-page flex-column">
+                  <form class="login" action="index.html" method="post">
+                    <span class="login__text">Если у вас уже есть личный кабинет, пожалуйста авторизуйтесь.</span>
+                    <p>Еще не зарегистрировались? <a href="#" class="login__url">Пройти регистрацию</a></p>
+                    <div class="login-item">
+                      <span class="login-item__title">Имя</span>
+                      <input class="reg-input" type="text" name="" value="">
                     </div>
-                    <div class="account-name__desc flex-column">
-                      <div class="account-name__desc-name justify-space flex-row">
-                        <h2>Данилова Галина Петровна</h2>
-                        <div class="flex-row account-check-title_wrap">
-                          <span class="account-check-title">Член АФРС(Я):</span>
-                          <span class="account-check">Да</span>
-                        </div>
-                      </div>
-                      <div class="flex-row account-name__desc-title">
-                        <span class="bold">Место работы:</span>
-                        <span>Lorem ipsum dolor sit amet</span>
-                      </div>
-                      <div class="flex-row account-name__desc-title">
-                        <span class="bold">Должность:</span>
-                        <span>Lorem ipsum dolor sit amet</span>
-                      </div>
+                    <div class="login-item">
+                      <span class="login-item__title">Пароль</span>
+                      <input class="reg-input" type="password" name="" value="">
                     </div>
-                  </div>
-                  <div class="account-certificate block-wrap flex-row">
-                    <div class="block block-3">
-                      <div class="certificate-item">
-                        <a href="#" class="change-input">
-                          <img src="/img/change-grey.svg" alt="">
-                        </a>
-                        <h4>Диплом о Высшем или среднем медицинском образовании:</h4>
-                        <div class="certificate-info">
-                          <span>Серия и номер:</span>
-                          <p>00 123312312</p>
-                        </div>
-                        <div class="certificate-info">
-                          <span>Дата:</span>
-                          <p>20.20.2020</p>
-                        </div>
-                      </div>
+                    <a href="#" class="login__what">Восстановить пароль</a>
+                    <div class="login-item login-submit__wrap">
+                      <input class="button login-submit" type="submit" name="" value="Войти в систему">
                     </div>
-                    <div class="block block-3">
-                      <div class="certificate-item">
-                        <a href="#" class="change-input">
-                          <img src="/img/change-grey.svg" alt="">
-                        </a>
-                        <h4>Сертификат специалиста №1</h4>
-                        <div class="certificate-info">
-                          <span>Серийный номер:</span>
-                          <p>00 123312312</p>
-                        </div>
-                        <div class="certificate-info">
-                          <span>Дата выдачи:</span>
-                          <p>20.20.2020</p>
-                        </div>
-                        <div class="certificate-info">
-                          <span>Дата сдачи экзамена:</span>
-                          <p>20.20.2020</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="block block-3">
-                      <div class="certificate-item">
-                        <a href="#" class="change-input">
-                          <img src="/img/change-grey.svg" alt="">
-                        </a>
-                        <h4>Сертификат специалиста №2</h4>
-                        <div class="certificate-info">
-                          <span>Серийный номер:</span>
-                          <p>00 123312312</p>
-                        </div>
-                        <div class="certificate-info">
-                          <span>Дата выдачи:</span>
-                          <p>20.20.2020</p>
-                        </div>
-                        <div class="certificate-info">
-                          <span>Дата сдачи экзамена:</span>
-                          <p>20.20.2020</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="block block-3">
-                      <div class="certificate-item">
-                        <a href="#" class="certificate-plus">
-                          <div class="certificate-plus__img">
-                            <img src="/img/plus.png" alt="">
-                          </div>
-                          <span>Добавить еще сертификат</span>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="account-accordion">
-                    <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                      <li class="accordion-item is-active" data-accordion-item>
-                        <a href="#" class="accordion-title">Статистические данные ежемесячные</a>
 
-                        <div class="accordion-content" data-tab-content>
-                          <div class="docs__wrap">
-                            <ul>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="account-accordion">
-                    <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                      <li class="accordion-item" data-accordion-item>
-                        <a href="#" class="accordion-title">Статистические сборники</a>
-
-                        <div class="accordion-content" data-tab-content>
-                          <div class="docs__wrap">
-                            <ul>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="account-accordion">
-                    <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                      <li class="accordion-item" data-accordion-item>
-                        <a href="#" class="accordion-title">Продукция</a>
-
-                        <div class="accordion-content" data-tab-content>
-                          <div class="docs__wrap">
-                            <ul>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                              <li><a href="#">Приказ 02.09.2019г. №537(О) Об утверждении перечня должностей на основании трудового договора в ГБУ РС(Я) НПЦ «Фтизиатрия», подверженных к коррупционным рискам. <span>(82.1 Kb)</span></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="account-accordion">
-                    <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                      <li class="accordion-item" data-accordion-item>
-                        <a href="#" class="accordion-title">Видео</a>
-
-                        <div class="accordion-content" data-tab-content>
-                          <div class="docs__wrap account-video">
-                            <ul>
-                              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>

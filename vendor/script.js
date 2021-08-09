@@ -88,3 +88,13 @@ if (document.querySelector('.section_banners')) {
     }
   });
 }
+if (document.querySelector('.reg')) {
+	$( "#file-input1" ).change(function() {
+		var fileInfo = $(this).val();
+		$("#file-input-text1").val(fileInfo);
+	});
+	$( "#file-input2" ).change(function() {
+		var fileInfo1 = $(this).val();
+		$("#file-input-text2").val(fileInfo1);
+	});
+}
