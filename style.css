@@ -3238,6 +3238,7 @@ body {
     color: #3e84d9;
     position: relative;
     justify-content: center;
+    margin-top: 20px;
   }
   .small-news {
     height: auto;
