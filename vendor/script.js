@@ -79,7 +79,7 @@ if (document.querySelector('.section_banners')) {
     if ($(window).width() < 830) {
       const swiper = new Swiper('.section_expert__slider', {
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 10,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
