@@ -273,7 +273,7 @@
                 <div class="news-page flex-column account-wrap">
                   <div class="flex-row justify-space account-title">
                     <h3>Персональные данные</h3>
-                    <a href="#" class="account_change">Изменить</a>
+                    <a href="#" class="account_change" data-fancybox data-src="#personal-content">Изменить</a>
                   </div>
                   <div class="account-name__wrap flex-row">
                     <div class="account-name__img">
@@ -356,7 +356,7 @@
                     </div>
                     <div class="block block-3">
                       <div class="certificate-item">
-                        <a href="#" class="certificate-plus">
+                        <a href="#" class="certificate-plus" data-fancybox data-src="#personal-sert">
                           <div class="certificate-plus__img">
                             <img src="img/plus.png" alt="">
                           </div>
@@ -435,6 +435,107 @@
                         </div>
                       </li>
                     </ul>
+                  </div>
+                  <div id="personal-content" style="display:none;">
+                    <h2>Персональные данные</h2>
+                    <br>
+                    <div class="flex-column">
+                      <form class="reg" action="index.html" method="post">
+                        <div class="reg-wrap flex-column">
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Фамилия Имя Отчество</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Член АФРС(Я)?</span>
+                            <div class="reg-item__input">
+                              <div class="edu-radio__wrap flex-row">
+                                <label for="localChoice1">
+                                  <input type="radio" class="local-radio__input" id="localChoice1" name="edu" value="yes" checked>
+                                  <span class="radio-check"></span>
+                                  <span class="local-radio__name">Да</span>
+                                </label>
+                                <label for="localChoice2">
+                                  <input type="radio" class="local-radio__input" id="localChoice2" name="edu" value="no">
+                                  <span class="radio-check"></span>
+                                  <span class="local-radio__name">Нет</span>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Место работы</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Должность</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-submit">
+                            <input class="button" type="submit" name="" value="Применить">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div id="personal-sert" style="display:none;">
+                    <h2>Добавить сертификат</h2>
+                    <br>
+                    <div class="flex-column">
+                      <form class="reg" action="index.html" method="post">
+                        <div class="reg-wrap flex-column">
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Название сертификата</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Серийный номер:</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Серия и номер:</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Дата выдачи:</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Дата сдачи экзамена:</span>
+                            <div class="reg-item__input">
+                              <input type="text" class="reg-input" name="" value="">
+                            </div>
+                          </div>
+                          <div class="reg-item flex-row">
+                            <span class="reg-item__name">Сертифкат</span>
+                            <div class="reg-item__input">
+                              <label for="file-input1" class="file-input">
+                                <span class="file-input__text">Загрузить</span>
+                                <input type="file" id="file-input1" class="file__input" name="" value="">
+                                <input type="text" id="file-input-text1" class="file__input-text" name="" value="">
+                              </label>
+                            </div>
+                          </div>
+                          <div class="reg-submit">
+                            <input class="button" type="submit" name="" value="Применить">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>

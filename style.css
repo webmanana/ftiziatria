@@ -1897,6 +1897,25 @@ body {
 .bold {
   font-weight: bold;
 }
+#personal-content {
+  max-width: 600px;
+}
+#personal-content .local-radio__input:checked + .radio-check::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    background: #3E84D9;
+    width: 8px;
+    height: 8px;
+}
+#personal-content h2 {
+  text-align: center;
+}
+#personal-content .reg-submit {
+  width: 100%;
+}
 .certificate-item {
   background: #FFFFFF;
   border: 1px solid #DFE8F1;
