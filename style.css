@@ -1906,6 +1906,7 @@ body {
   position: relative;
   padding: 30px;
   height: 260px;
+  margin-bottom: 20px;
 }
 .certificate-item h4 {
   font-weight: bold;
@@ -1988,7 +1989,7 @@ body {
   margin-bottom: 20px;
 }
 .account-accordion {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .account-accordion .accordion {
   margin-bottom: 0;
