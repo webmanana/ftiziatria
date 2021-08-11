@@ -1898,7 +1898,7 @@ body {
   font-weight: bold;
 }
 #personal-content {
-  max-width: 600px;
+  max-width: 800px;
 }
 #personal-content .local-radio__input:checked + .radio-check::after {
     content: '';
@@ -2678,12 +2678,25 @@ body {
     padding-right: 15px;
     box-sizing: border-box;
   }
+  .file__input-text {
+    left: 15px;
+    top: 45px;
+  }
   .login-submit {
     width: 100%;
+  }
+  .file-input {
+    margin-bottom: 10px;
   }
   .section_services__block {
     margin-left: 0;
     margin-right: 0;
+  }
+  .certificate-item {
+    margin-bottom: 0;
+  }
+  .account-certificate .block:last-child .certificate-item {
+    margin-bottom: 20px;
   }
   .login-item {
     width: 100%;
@@ -2943,10 +2956,14 @@ body {
   }
   .accordion-title::before {
     right: 20px;
+    top: 33px;
   }
   .accordion-content {
     font-size: 12px;
     line-height: 14px;
+  }
+  .fancybox__content {
+    padding: 20px;
   }
   .faq-more h3 {
     text-align: center;

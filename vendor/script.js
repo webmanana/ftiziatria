@@ -97,4 +97,8 @@ if (document.querySelector('.reg')) {
 		var fileInfo1 = $(this).val();
 		$("#file-input-text2").val(fileInfo1);
 	});
+	$( "#file-input3" ).change(function() {
+		var fileInfo1 = $(this).val();
+		$("#file-input-text3").val(fileInfo1);
+	});
 }
