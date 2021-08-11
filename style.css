@@ -2958,12 +2958,19 @@ body {
     right: 20px;
     top: 33px;
   }
+  .certificate-plus span {
+    font-size: 24px;
+    line-height: 160%;
+  }
   .accordion-content {
     font-size: 12px;
     line-height: 14px;
   }
   .fancybox__content {
     padding: 20px;
+  }
+  .account-accordion {
+    margin-bottom: 20px;
   }
   .faq-more h3 {
     text-align: center;
@@ -3216,6 +3223,8 @@ body {
   }
   .header_top__info-mobile a {
     margin-left: 0;
+    width: 40px;
+    height: 40px;
   }
   .section_about__wrap .block-6 {
     width: 100%;
