@@ -1067,8 +1067,12 @@ body {
   color: #3e84d9;
   position: relative;
 }
+.accordion-title:focus, .accordion-title:hover {
+  background-color: none;
+}
 .page-menu__content a:hover {
   background: #f3f7fc;
+  padding-left: 10px;
 }
 .page-menu__content > ul > li > a {
   padding-left: 0;
@@ -1667,7 +1671,7 @@ body {
   height: 10px;
   content: ''!important;
   right: 60px;
-  top: 48px;
+  top: 55%;
 }
 :last-child:not(.is-active)>.accordion-title  {
   border: none;
