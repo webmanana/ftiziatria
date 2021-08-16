@@ -1069,7 +1069,7 @@ body {
 }
 .accordion-title:focus,
 .accordion-title:hover {
-  background-color: none;
+  background-color: transparent!important;
 }
 .page-menu__content a:hover {
   background: #f3f7fc;
